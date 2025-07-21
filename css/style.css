@@ -8,6 +8,7 @@
 body {
   font-family: "Inter" !important;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 /* nav style start */
@@ -49,10 +50,7 @@ body {
 /* nav style end */
 
 /* banner style start */
-.banner
-
-/*section1*/
-  {
+.banner{
   background-image: url("../assets/banner/Rectangle.png");
   background-repeat: no-repeat;
   background-size: cover;
