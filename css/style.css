@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Inter" !important;
+}
+
+.brandName {
+    margin-left: 15px;
+    color: #7963F0;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.nav-item {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    margin-left: 15px;
+}
+
+.signUp {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+
+.signUp img {
+    background-color: #F5F6F7;
+    border-radius: 8px;
+    width: 30px;
+    height: 25px;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
