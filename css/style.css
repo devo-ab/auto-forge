@@ -50,15 +50,15 @@ body {
 /* nav style end */
 
 /* banner style start */
-.banner{
+.banner {
   background-image: url("../assets/banner/Rectangle.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; /* important for centering on small screens */
+  background-position: center;
+  /* important for centering on small screens */
   width: 100%;
   height: 560px;
   position: relative;
-  
 }
 
 .banner-head {
@@ -253,12 +253,182 @@ body {
 
 /* active auctions end */
 
+/* auto auction start */
+.autoAHead {
+  color: rgb(13, 10, 25);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.autoAPara {
+  color: rgb(13, 10, 25);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.AutoAmount {
+  color: rgb(13, 10, 25);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.15px;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgb(228, 230, 232);
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.AutoPDetails {
+  color: rgb(154, 158, 167);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.autoBtn {
+  color: rgb(154, 158, 167) !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 21px !important;
+  letter-spacing: -0.1px;
+  text-align: left !important;
+  background-color: rgb(232, 235, 240) !important;
+  padding: 10px 30px !important;
+}
+
+/* auto auction end */
+
+/* find car start */
+.findHead {
+  color: rgb(13, 10, 25);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.tHeader {
+  color: rgb(154, 158, 167) !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+  letter-spacing: -0.1px;
+  text-align: left !important;
+}
+
+.tableHead {
+  color: rgb(13, 10, 25);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.tablePara {
+  color: rgb(154, 158, 167);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.tableImg {
+  width: 35px;
+  height: 36px;
+}
+
+.otherHead {
+  color: rgb(13, 10, 25);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.otherPara {
+  color: rgb(13, 10, 25);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: 0px;
+}
+
+/* find car end */
+
+/* footer start */
+.footerBG {
+  background: rgb(245, 246, 247);
+  padding-top: 40px;
+}
+
+.footerHead {
+  color: rgb(13, 10, 25);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.footerPara {
+  color: rgb(154, 158, 167);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.footerLast {
+  color: rgb(13, 10, 25);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.footerCopyR {
+  color: rgb(154, 158, 167);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+/* footer end */
+
 /* responsive start */
 @media screen and (max-width: 576px) {
   .banner-head {
     font-size: 28px;
     line-height: 36px;
     padding-top: 60px;
+  }
+
+  .banner {
+    background-image: url("../assets/banner/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    height: 560px;
   }
 
   .banner-para {
